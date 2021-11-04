@@ -17,7 +17,7 @@ use JsonSerializable;
 use PHPOpenSourceSaver\JWTAuth\Contracts\Claim as ClaimContract;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
 
-abstract class Claim implements Arrayable, ClaimContract, Jsonable, JsonSerializable
+abstract class Claim implements Arrayable, ClaimContract, Jsonable
 {
     /**
      * The claim name.
