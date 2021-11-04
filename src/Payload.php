@@ -24,7 +24,7 @@ use PHPOpenSourceSaver\JWTAuth\Claims\Collection;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\PayloadException;
 use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
 
-class Payload implements ArrayAccess, Arrayable, Countable, Jsonable, JsonSerializable
+class Payload implements Arrayable, Jsonable
 {
     /**
      * The collection of claims.
